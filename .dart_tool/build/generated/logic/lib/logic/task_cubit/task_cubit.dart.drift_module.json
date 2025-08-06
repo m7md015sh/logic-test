@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:bloc/bloc.dart",
+    "package:flutter/material.dart",
+    "package:logic/models/task_model.dart",
+    "package:uuid/uuid.dart"
+  ]
+}

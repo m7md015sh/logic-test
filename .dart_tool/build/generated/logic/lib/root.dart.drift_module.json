@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:logic/screens/multi_image_selector.dart",
+    "package:logic/screens/multi_selection.dart",
+    "package:logic/screens/toggle_selection.dart"
+  ]
+}

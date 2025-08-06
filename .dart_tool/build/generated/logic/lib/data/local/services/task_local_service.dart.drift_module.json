@@ -1,0 +1,7 @@
+{
+  "elements": {},
+  "imports": [
+    "package:drift/drift.dart",
+    "package:logic/data/local/app_database.dart"
+  ]
+}

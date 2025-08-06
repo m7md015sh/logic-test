@@ -1,0 +1,41 @@
+{
+  "elements": {
+    "AppDatabase": {
+      "id": {
+        "library_uri": "package:logic/data/local/app_database.dart",
+        "name": "AppDatabase"
+      },
+      "declaration": {
+        "source_uri": "package:logic/data/local/app_database.dart",
+        "offset": 301,
+        "name": "AppDatabase"
+      },
+      "references": [
+        {
+          "library_uri": "package:logic/core/drift/task_table.dart",
+          "name": "task_table"
+        }
+      ],
+      "type": "database",
+      "tables": [
+        {
+          "library_uri": "package:logic/core/drift/task_table.dart",
+          "name": "task_table"
+        }
+      ],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "schema_version": 1,
+      "daos": [],
+      "has_constructor_arg": false
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:drift/native.dart",
+    "package:logic/core/drift/task_table.dart",
+    "package:path/path.dart",
+    "package:path_provider/path_provider.dart"
+  ]
+}

@@ -1,8 +1,11 @@
-part of 'task_cubit.dart';
+import 'package:flutter/cupertino.dart';
+
+import '../../data/local/app_database.dart';
+import '../../models/task_model.dart';
 
 @immutable
 sealed class TaskState {
-  final List<TaskModel> tasks;
+  final List<TaskTableData> tasks;
   const TaskState(this.tasks);
 }
 
